@@ -110,38 +110,6 @@ main .copy .contact form .send-btn{
     color: rgb(255, 147, 147);
 }
 
-* {
-    box-sizing: border-box;
- }
- 
- h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
- }
- 
- p {
-    margin-bottom: 50px;
- }
- 
- .card {
-    margin: 0 auto;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
- }
- 
- .logo {
-    margin: 25px;
-    order: 1;
- }
- 
- .contact-form {
-    display: flex;
-    border: 1px solid hsl(0, 36%, 70%);
-    border-radius: 25px;
- }
- 
  footer {
     text-align: center;
     font-size: 0.75rem;

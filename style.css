@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 * {
     box-sizing: border-box;
  }
 
->>>>>>> a910ec5... Estilos para footer
 body{
     background-color:white;
     flex-direction: column;
@@ -116,8 +113,6 @@ main .copy .contact form .send-btn{
     color: rgb(255, 147, 147);
 }
 
-<<<<<<< HEAD
-=======
 footer {
     text-align: center;
     font-size: 0.75rem;
@@ -166,4 +161,3 @@ footer {
         padding: 60px 40px;
      }
   }
->>>>>>> a910ec5... Estilos para footer

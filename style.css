@@ -1,3 +1,114 @@
+body{
+    background-color:white;
+    flex-direction: column;
+    margin: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main{
+  background: linear-gradient( 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+              Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
+  overflow-x: scroll;
+  border: 1px solid rgb(179, 179, 179);
+              
+}
+main .card{
+    display: grid;
+    grid-template-areas: "logo  img"
+                         "h1    img"
+                         "p     img"
+                         "input img"
+                         "footer footer";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+ 
+}
+
+
+.main-img{
+    grid-area: img;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 0px;
+    
+}
+.card .logo{
+    grid-area: logo;
+    display:flex;
+    margin: 60px 0px 60px 180px;
+    height: 40px;
+    
+}
+.card .copy{
+    margin: -600px 300px 60px 180px; 
+}
+
+.card .copy #title-box #title{
+    grid-area: h1;
+    display:flex;
+    font-size: 63px; 
+    justify-content: start;
+    width: 100%;
+    margin: 0px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 100;
+    letter-spacing: 0.25em;
+    
+    
+}
+
+.card .copy #title-box #title2{
+    grid-area: h1;
+    display:flex;
+    font-size: 63px; 
+    justify-content: start;
+    width: 100%;
+    margin: 0px;
+    letter-spacing: 0.3em;
+}
+
+.card .copy p{
+    color:hsl(0, 36%, 70%);
+    font-size: 16px;
+    padding: 10px;
+    LINE-HEIGHT: 25px;
+}
+.card .copy .contact{
+    display: flex;
+    justify-content: start;
+    
+}
+
+main .copy .contact form{
+    display: flex;
+}
+
+main .copy .contact form #input{
+    background-color: hsl (0, 36%, 70%);
+    border-radius: 30px;
+    padding: 18px;
+    width: 430px;
+    border: 1px solid hsl(0, 36%, 70%);
+    
+}
+
+main .copy .contact form .send-btn{
+
+    background-color: rgb(255, 147, 147);
+    padding: 0px;
+    margin: 0px -30px 0px -100px;
+    border-radius: 50px;
+    width: 100px;
+    height: 53px;
+    border: 1px solid pink;
+    
+}
+
+::placeholder{
+    color: rgb(255, 147, 147);
+}
+
 * {
     box-sizing: border-box;
  }

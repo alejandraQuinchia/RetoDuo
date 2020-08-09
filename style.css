@@ -1,7 +1,8 @@
 body{
     background-color:white;
     flex-direction: column;
-    margin: 15px;
+    margin: 0px;
+    font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
 }
 main{
@@ -111,12 +112,6 @@ main .copy .contact form .send-btn{
 
 * {
     box-sizing: border-box;
- }
- 
- body {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    margin: 0;
  }
  
  h1 {

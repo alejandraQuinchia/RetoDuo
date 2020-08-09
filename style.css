@@ -120,16 +120,6 @@ main .copy .contact form .send-btn{
     letter-spacing: 0.5rem;
  }
  
- h1 span,
- p {
-    color: hsl(0, 36%, 70%);
- }
- 
- h2 span {
-    display: block;
-    font-weight: 300;
- }
- 
  p {
     margin-bottom: 50px;
  }
@@ -146,42 +136,10 @@ main .copy .contact form .send-btn{
     order: 1;
  }
  
- .main-img {
-    object-fit: cover;
-    object-position: left -40px;
-    height: 250px;
-    order: 2;
- }
- 
- .copy {
-    padding: 0 30px;
-    text-align: center;
-    order: 3;
-    max-width: 500px;
-    margin: 0 auto;
- }
- 
  .contact-form {
     display: flex;
     border: 1px solid hsl(0, 36%, 70%);
     border-radius: 25px;
- }
- 
- .email {
-    width: 100%;
-    padding: 1.5em;
-    background: none;
-    border: none;
- }
- 
- .send-btn {
-    border-radius: 25px;
-    width: 80px;
-    border: none;
-    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    z-index: 100;
-    font-size: 1.5rem;
-    color: white;
  }
  
  footer {

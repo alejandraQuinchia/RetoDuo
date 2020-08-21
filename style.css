@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color:white;
     flex-direction: column;
@@ -37,12 +41,12 @@ main .card{
 .card .logo{
     grid-area: logo;
     display:flex;
-    margin: 60px 0px 60px 180px;
+    margin: 60px 0px 0px 180px;
     height: 40px;
     
 }
 .card .copy{
-    margin: -600px 300px 60px 180px; 
+    margin:-600px 30px 20px 40px ; 
 }
 
 .card .copy #title-box #title{
@@ -51,11 +55,11 @@ main .card{
     font-size: 63px; 
     justify-content: start;
     width: 100%;
+    height: 100%;
     margin: 0px;
     color: hsl(0, 36%, 70%);
     font-weight: 100;
-    letter-spacing: 0.25em;
-    
+    letter-spacing: 0.25em; 
     
 }
 
@@ -65,6 +69,7 @@ main .card{
     font-size: 63px; 
     justify-content: start;
     width: 100%;
+    height: 100%;
     margin: 0px;
     letter-spacing: 0.3em;
 }
@@ -74,6 +79,7 @@ main .card{
     font-size: 16px;
     padding: 10px;
     LINE-HEIGHT: 25px;
+
 }
 .card .copy .contact{
     display: flex;
@@ -115,4 +121,77 @@ main .copy .contact form .send-btn{
     font-size: 0.75rem;
     color: lightgrey;
  }
- 
+
+ @media(max-width: 900px){
+    main .card{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .card {
+        margin: 0%;
+    }
+    .card .logo{
+        width: 0%;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+    }
+    .card .copy{
+         margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;  
+    } 
+    .card .copy #title-box #title{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 40px;  
+    }
+    .card .copy #title-box #title2{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-size: 40px;
+    }
+    .card .copy p{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-img{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        align-self:center; 
+    }
+    .card .copy .contact, main .copy .contact form{
+        display: flex;
+        justify-content: center;
+        align-self:center; 
+    }
+    main .copy .contact form #input{
+        display: flex;
+        align-items: center;
+        align-self:center; 
+        width: 300px;
+        padding: 13px;
+        margin-bottom: 10px;
+        
+    }
+    main .copy .contact form .send-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self:center; 
+        width:70px;
+        height: 44px;
+        margin: 0px 0px 10px -60px;
+    }
+
+}
